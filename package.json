@@ -1,0 +1,21 @@
+{
+  "name": "@hollax/vue-lib-utils",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "main": "dist/vue-lib-utils.js",
+  "types": "dist",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "test": "vitest",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "typescript": "~5.6.2",
+    "vite": "^6.0.1",
+    "vite-plugin-dts": "^4.3.0",
+    "vitest": "^2.1.8"
+  }
+}
